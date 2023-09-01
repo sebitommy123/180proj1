@@ -24,7 +24,7 @@ img {
   <br>
   Our job now is to deal with this and coalesce the three channels into color.
   <br>
-  <b>My approach</b>: Do pyramid image search with the scale doubling every time, and then finding the best offset for the channel using simple SSD.
+  <b>My approach</b>: Do pyramid image search with the scale doubling every time, and then finding the best offset for the channel using simple SSD. The innovation was the crop the edges before doing SSD so that they don't matter.
   <br>
   <br>
   Here's all the pictures he took (14 required, 4 that I found) with the coalesced versions to the right:
